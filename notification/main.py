@@ -42,3 +42,5 @@ app.add_middleware(
 )
 app.include_router(service_info)
 app.include_router(notification_services)
+
+print("test")
